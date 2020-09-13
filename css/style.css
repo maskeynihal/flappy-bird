@@ -1,0 +1,28 @@
+body {
+  background-color: aquamarine;
+}
+
+#playground {
+  border: 1px solid black;
+}
+
+#flappyBird {
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+  height: 650px;
+}
+
+.score-sheet {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.score-sheet > li {
+  list-style: none;
+  font-size: large;
+}
